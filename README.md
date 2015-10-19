@@ -29,8 +29,11 @@ This data is to be POSTed to the script with the field name 'input'.
 All fields for each entry must be populated (no assuming default values).
 
 This script will then output one of the following:
+
 NO-ACTION
+
 REPORT
+
 MARK
 
 ToDo: Build web interface. Most of the ground work for the interface is done, just set input_text to the JSON input
