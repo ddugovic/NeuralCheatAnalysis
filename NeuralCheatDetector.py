@@ -67,11 +67,6 @@ input_text = """[{
 
 form = cgi.FieldStorage()
 
-print "Content-type: text/html"
-print
-
-######################## Main Program ######################## 
-
 input_data = json.loads(form.getvalue("input", input_text))
 
 player_assessments = ClassificationDataSet(11, 1, nb_classes=2)
@@ -146,6 +141,9 @@ net_second_pass = NetworkReader.readFrom('SecondPass.xml')
 second_pass = net_second_pass.activateOnDataset(first_pass)
 
 tolerance = 0.7 # 0 = No reports, strictly marking or not marking. 1 = all reports, no marking/non-marking
+
+print "Content-type: text/html"
+print
 
 if second_pass[0][0] > second_pass[0][1] - tolerance and second_pass[0][0] < second_pass[0][1] + tolerance:
 	print "REPORT"
