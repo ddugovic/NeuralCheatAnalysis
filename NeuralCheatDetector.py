@@ -3,7 +3,6 @@ from pybrain.tools.customxml import NetworkReader
 from pybrain.datasets import ClassificationDataSet
 import json, cgi
 
-#this is just test data, the interface still needs to be finished
 input_text = """[{
 	"ser":0,
 	"aha":0,
@@ -12,7 +11,7 @@ input_text = """[{
 	"sha": 0,
 	"sfAvg":82,
 	"sfSd":130,
-	"mtAvg":36,
+	"mtAvg":46,
 	"mtSd":34,
 	"blurs":0
 }]"""
