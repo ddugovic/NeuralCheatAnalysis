@@ -35,5 +35,3 @@ NO-ACTION
 REPORT
 
 MARK
-
-ToDo: Build web interface. Most of the ground work for the interface is done, just set input_text to the JSON input
