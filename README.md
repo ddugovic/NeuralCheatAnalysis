@@ -6,7 +6,7 @@ The names of the fields are the same as what is stored in mongoDB on lila.
 
 Input format (JSON):
 ```javascript
-[
+input=[
 	{
 		"ser":0,
 		"aha":0,
@@ -29,9 +29,10 @@ This data is to be POSTed to the script with the field name 'input'.
 All fields for each entry must be populated (no assuming default values).
 
 This script will then output one of the following:
-
+```
 NO-ACTION
 
 REPORT
 
 MARK
+```
