@@ -8,60 +8,12 @@ input_text = """[{
 	"ser":0,
 	"aha":0,
 	"cmt":0,
-	"nfm":1,
+	"nfm":0,
 	"sha": 0,
 	"sfAvg":82,
 	"sfSd":130,
 	"mtAvg":36,
 	"mtSd":34,
-	"blurs":0
-},
-{
-	"ser":0,
-	"aha":1,
-	"cmt":0,
-	"nfm":1,
-	"sha": 0,
-	"sfAvg":32,
-	"sfSd":44,
-	"mtAvg":45,
-	"mtSd":35,
-	"blurs":0
-},
-{
-	"ser":0,
-	"aha":0,
-	"cmt":0,
-	"nfm":0,
-	"sha": 0,
-	"sfAvg":52,
-	"sfSd":57,
-	"mtAvg":34,
-	"mtSd":28,
-	"blurs":0
-},
-{
-	"ser":0,
-	"aha":0,
-	"cmt":0,
-	"nfm":1,
-	"sha": 0,
-	"sfAvg":67,
-	"sfSd":168,
-	"mtAvg":84,
-	"mtSd":82,
-	"blurs":0
-},
-{
-	"ser":0,
-	"aha":1,
-	"cmt":0,
-	"nfm":1,
-	"sha": 0,
-	"sfAvg":45,
-	"sfSd":133,
-	"mtAvg":57,
-	"mtSd":41,
 	"blurs":0
 }]"""
 
