@@ -67,5 +67,5 @@ elif second_pass[0] > second_pass[1]:
 else:
 	decision = "MARK"
 
-output = {'decision': decision, 'cheatPercent': int(100*second_pass[1]), 'nonCheatPercent': int(100*second_pass[0])}
+output = {'decision': decision, 'cheatPercent': int(100*second_pass[0]), 'nonCheatPercent': int(100*second_pass[1])}
 print json.dumps(output)
