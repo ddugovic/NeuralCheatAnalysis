@@ -59,7 +59,7 @@ second_pass = net_second_pass.activate(temp)
 print "Content-type: application/json"
 print
 
-if second_pass[1] > 0.85 and :
+if second_pass[1] > 0.85:
 	decision = "MARK"
 elif second_pass[1] > 0.6:
 	decision = "REPORT"
