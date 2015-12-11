@@ -55,17 +55,16 @@ net_second_pass = NetworkReader.readFrom('SecondPass.xml')
 second_pass = net_second_pass.activate(temp)
 
 # Determine what should be done to the player and return results
-tolerance = 0.6 # 0 = No reports, strictly marking or not marking. 1 = all reports, no marking/non-marking
 
 print "Content-type: application/json"
 print
 
-if second_pass[0] > second_pass[1] - tolerance and second_pass[0] < second_pass[1] + tolerance:
-	decision = "REPORT"
-elif second_pass[0] > second_pass[1]:
-	decision = "NO-ACTION"
-else:
+if second_pass[1] > 0.85 and :
 	decision = "MARK"
+elif second_pass[1] > 0.6:
+	decision = "REPORT"
+else:
+	decision = "NO-ACTION"
 
 output = {'decision': decision, 'cheatPercent': int(100*second_pass[1]), 'nonCheatPercent': int(100*second_pass[0])}
 print json.dumps(output)
