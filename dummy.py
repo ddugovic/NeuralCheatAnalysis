@@ -27,5 +27,5 @@ target.write(input_data)
 print "Content-type: application/json"
 print
 
-output = {'decision': decision, 'cheatPercent': int(10), 'nonCheatPercent': int(90)}
+output = {'decision': "NO-ACTION", 'cheatPercent': int(10)}
 print json.dumps(output)
