@@ -21,11 +21,8 @@ form = cgi.FieldStorage()
 
 input_data = json.loads(form.getvalue("input", input_text))
 
-target = open("dummy.txt", 'w')
-target.write(input_data)
-
 print "Content-type: application/json"
 print
 
-output = {'decision': "NO-ACTION", 'cheatPercent': int(10)}
+output = {'decision': "NO-ACTION", 'cheatPercent': input_data}
 print json.dumps(output)
