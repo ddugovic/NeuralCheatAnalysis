@@ -66,5 +66,5 @@ elif second_pass[1] > 0.6:
 else:
 	decision = "NO-ACTION"
 
-output = {'decision': decision, 'cheatPercent': input_text)}
+output = {'decision': decision, 'cheatPercent': input_text}
 print json.dumps(output)
