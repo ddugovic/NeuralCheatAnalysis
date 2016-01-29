@@ -21,6 +21,9 @@ form = cgi.FieldStorage()
 
 input_data = json.loads(form.getvalue("input", input_text))
 
+target = open("dummy.txt", 'w')
+target.write(input_data)
+
 # Convert data from JSON to DataSet for processing
 player_assessments = ClassificationDataSet(11, 1, nb_classes=2)
 
