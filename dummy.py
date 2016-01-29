@@ -24,5 +24,5 @@ input_data = json.loads(form.getvalue("input", input_text))
 print "Content-type: application/json"
 print
 
-output = {'decision': "NO-ACTION", 'cheatPercent': input_data}
+output = {'decision': "NO-ACTION", 'cheatPercent': int(10)}
 print json.dumps(output)
