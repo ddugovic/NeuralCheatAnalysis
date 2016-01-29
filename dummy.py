@@ -23,3 +23,6 @@ input_data = json.loads(form.getvalue("input", input_text))
 
 target = open("dummy.txt", 'w')
 target.write(input_data)
+
+output = {'decision': decision, 'cheatPercent': int(10), 'nonCheatPercent': int(90)}
+print json.dumps(output)
