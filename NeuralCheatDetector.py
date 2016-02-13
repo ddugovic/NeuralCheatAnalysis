@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from pymongo import MongoClient
+#from pymongo import MongoClient
 from pybrain.tools.customxml import NetworkReader
 from pybrain.datasets import ClassificationDataSet
 import json, cgi
@@ -628,12 +628,12 @@ form = cgi.FieldStorage()
 input_data = json.loads(form.getvalue("input", input_text))
 
 # Do MongoDB stuff to save data
-client = MongoClient()
+#client = MongoClient()
 
-db = client.tensorFlow
-collection = db.gameData
+#db = client.tensorFlow
+#collection = db.gameData
 
-collection.insert(input_data)
+#collection.insert(input_data)
 
 print "Content-type: application/json"
 print
