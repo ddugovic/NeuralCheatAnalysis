@@ -50,7 +50,7 @@ client = MongoClient()
 db = client.tensorFlow
 collection = db.gameData
 
-collection.insert(input_data, upsert=True)
+collection.insert(input_data)
 
 print "Content-type: application/json"
 print
