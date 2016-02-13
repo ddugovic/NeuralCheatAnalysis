@@ -1,7 +1,7 @@
 #from pymongo import MongoClient
 from pybrain.tools.customxml import NetworkReader
 from pybrain.datasets import ClassificationDataSet
-import json, cgi, sys
+import json, cgi
 
 input_text = """[{
 	"_id":"VxrF4mh9",
@@ -54,6 +54,6 @@ input_data = json.loads(form.getvalue("input", input_text))
 print "Content-type: application/json"
 print
 
-output = {'decision': sys.version_info, 'cheatPercent': 20}
+output = {'decision': help('modules'), 'cheatPercent': 20}
 #output = {'decision': json.dumps(input_data), 'cheatPercent': 20}
 print json.dumps(output)
