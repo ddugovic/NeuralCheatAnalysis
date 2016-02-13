@@ -4,7 +4,7 @@ from pybrain.tools.customxml import NetworkReader
 from pybrain.datasets import ClassificationDataSet
 import json, cgi
 
-input_text = """{
+input_text = """[{
 	"_id":"oHu556Wx",
 	"moveTimes":[20,15,150,40,10,50,60,1,60,100,150,150,10,150,300,300,40,600,300,100,20,300,150,30,150,100,60,50,300,40,80],
 	"evals":[15,9,35,29,55,40,38,8,13,-18,-21,-30,-81,-72,-58,-13,332,329,332,398,253,338,277,237,262,309,403,404,352,393,306],
@@ -37,8 +37,7 @@ input_text = """{
 	"isWinner":false,
 	"rating":1679,
 	"isProvisional":false
-}
-"""
+}]"""
 
 # Get posted data
 form = cgi.FieldStorage()
