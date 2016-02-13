@@ -14,7 +14,7 @@ input_text = """[{
 	"isWinner": true, 
 	"blurs": 0, 
 	"cpAvg": 17
-}"""
+}]"""
 
 # Get posted data
 form = cgi.FieldStorage()
@@ -26,9 +26,8 @@ client = MongoClient()
 
 db = client.tensorFlow
 collection = db.gameData
-posts = db.posts
 
-posts.save(input_data)
+collection.insert_many(input_data)
 
 print "Content-type: application/json"
 print
