@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#from pymongo import MongoClient
+from pymongo import MongoClient
 from pybrain.tools.customxml import NetworkReader
 from pybrain.datasets import ClassificationDataSet
 import json, cgi
