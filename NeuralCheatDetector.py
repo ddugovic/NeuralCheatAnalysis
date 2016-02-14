@@ -56,6 +56,5 @@ input_data = json.loads(form.getvalue("input", input_text))
 print "Content-type: application/json"
 print
 
-output = {'decision': sys.modules.keys(), 'cheatPercent': 20}
-#output = {'decision': json.dumps(input_data), 'cheatPercent': 20}
+output = {'decision': json.dumps(input_data), 'cheatPercent': 20}
 print json.dumps(output)
