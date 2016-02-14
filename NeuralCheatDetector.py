@@ -1,7 +1,9 @@
 #from pymongo import MongoClient
 from pybrain.tools.customxml import NetworkReader
 from pybrain.datasets import ClassificationDataSet
-import json, cgi, sys
+import json, cgi
+import cgitb
+cgitb.enable()
 
 input_text = """[{
 	"_id":"VxrF4mh9",
