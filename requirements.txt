@@ -1,0 +1,7 @@
+Applications/Libraries:
+mongodb
+uwsgi
+
+Python Libraries:
+pymongo 
+paste
