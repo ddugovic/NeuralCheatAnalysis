@@ -16,5 +16,5 @@ def define(env):
         collection = db.gameData
         collection.insert(input_data)
         return json.dumps({"nbAdded": len(input_data)})
-    elif:
+    else:
         return json.dumps({"nbAdded": 0})

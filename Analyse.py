@@ -13,5 +13,5 @@ def analyse(env):
         
         # I dunno lol
         return json.dumps({"decision": "REPORT", "cheatPercent": len(input_data)})
-    elif:
+    else:
         return json.dumps({"decision": "NO-ACTION", "cheatPercent": 0})
