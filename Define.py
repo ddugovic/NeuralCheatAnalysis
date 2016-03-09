@@ -4,10 +4,9 @@ import json
 
 def application(env, start_response):
     start_response('200 OK', [('Content-Type','text/json')])
-    addDefinitions(env)
-    return [b"Hello World!"]
+    return define(env)
 
-def addDefinitions(env):
+def define(env):
     if (env['REQUEST_METHOD'] == 'POST'):
         fields = request.parse_formvars(env)
         input_data = json.loads(fields.get('input', '[]'))
@@ -16,3 +15,6 @@ def addDefinitions(env):
         db = client.tensorFlow
         collection = db.gameData
         collection.insert(input_data)
+        return json.dumps({"nbAdded": len(input_data)})
+    elif:
+        return json.dumps({"nbAdded": 0})
