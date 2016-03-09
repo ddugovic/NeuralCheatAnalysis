@@ -4,7 +4,7 @@ import json
 
 def application(env, start_response):
     start_response('200 OK', [('Content-Type','text/json')])
-    return define(env)
+    return define(env).encode('UTF-8')
 
 def define(env):
     if (env['REQUEST_METHOD'] == 'POST'):
