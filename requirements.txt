@@ -1,7 +1,16 @@
 Applications/Libraries:
 mongodb
 uwsgi
+weka
 
 Python Libraries:
 pymongo 
 paste
+python-weka-wrapper (requires javabridge)
+
+Development Libraries (needed by javabridge):
+build-essential
+python-dev
+python-pip
+python-numpy
+PPA oracle-java8-installer

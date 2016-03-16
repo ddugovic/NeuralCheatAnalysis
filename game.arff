@@ -1,0 +1,64 @@
+@relation lichess.games
+
+@attribute cpAvg numeric
+@attribute blurs numeric
+@attribute holdAlert {false,true}
+@attribute isWinner {false,true}
+@attribute rating numeric
+@attribute isProvisional {false,true}
+@attribute mt1 numeric
+@attribute mt2 numeric
+@attribute mt3 numeric
+@attribute mt4 numeric
+@attribute mt5 numeric
+@attribute mt6 numeric
+@attribute mt7 numeric
+@attribute mt8 numeric
+@attribute mt9 numeric
+@attribute mt10 numeric
+@attribute mt11 numeric
+@attribute mt12 numeric
+@attribute mt13 numeric
+@attribute mt14 numeric
+@attribute eval1 numeric
+@attribute eval2 numeric
+@attribute eval3 numeric
+@attribute eval4 numeric
+@attribute eval5 numeric
+@attribute eval6 numeric
+@attribute eval7 numeric
+@attribute eval8 numeric
+@attribute eval9 numeric
+@attribute eval10 numeric
+@attribute eval11 numeric
+@attribute eval12 numeric
+@attribute eval13 numeric
+@attribute eval14 numeric
+@attribute diff1 numeric
+@attribute diff2 numeric
+@attribute diff3 numeric
+@attribute diff4 numeric
+@attribute diff5 numeric
+@attribute diff6 numeric
+@attribute diff7 numeric
+@attribute diff8 numeric
+@attribute diff9 numeric
+@attribute diff10 numeric
+@attribute diff11 numeric
+@attribute diff12 numeric
+@attribute diff13 numeric
+@attribute diff14 numeric
+@attribute group {0,1}
+
+@data
+0,30,false,true,3000,true,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1
+0,40,false,true,3000,true,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1
+0,40,false,true,3000,true,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1
+0,40,false,true,3000,true,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1
+0,50,false,true,3000,true,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1
+19,0,false,true,2228,true,60,40,100,80,150,10,30,30,40,150,300,40,200,150,15,-26,-31,-2,13,-32,-37,-5,20,-64,641,1000,1000,1000,41,0,6,5,41,21,0,13,95,49,0,0,0,0,0
+19,1,false,true,2228,true,60,40,100,80,150,10,30,30,40,150,300,40,200,150,15,-26,-31,-2,13,-32,-37,-5,20,-64,641,1000,1000,1000,41,0,6,5,41,21,0,13,95,49,0,0,0,0,0
+19,2,false,true,2228,true,60,40,100,80,150,10,30,30,40,150,300,40,200,150,15,-26,-31,-2,13,-32,-37,-5,20,-64,641,1000,1000,1000,41,0,6,5,41,21,0,13,95,49,0,0,0,0,0
+19,3,false,true,2228,true,60,40,100,80,150,10,30,30,40,150,300,40,200,150,15,-26,-31,-2,13,-32,-37,-5,20,-64,641,1000,1000,1000,41,0,6,5,41,21,0,13,95,49,0,0,0,0,0
+19,4,false,true,2228,true,60,40,100,80,150,10,30,30,40,150,300,40,200,150,15,-26,-31,-2,13,-32,-37,-5,20,-64,641,1000,1000,1000,41,0,6,5,41,21,0,13,95,49,0,0,0,0,0
+
